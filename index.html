@@ -18,92 +18,249 @@
         color: white;
         background-image: url('images/astro.jpg');
         background-size: cover;
+        margin-top: 10px;
+      }
+      .navbar{
+        background-color: black;
+      }
+      .footer{
+        background-color: black;
+        color: white;
+        padding-bottom: 10px;
+      }
+      .container{
+        text-align: center;
       }
     </style>
   </head>
   <body>
   <!-- Top Navigation Menu -->
-  <nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <a class="navbar-brand" href="#">ITTC</a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container">
+      <a class="navbar-brand" href="#">ITTC</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">WELCOME <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">ABOUT</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              COURSE
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="#">BEGINNER</a>
+              <a class="dropdown-item" href="#">ADVANCE</a>
+              <a class="dropdown-item" href="#">EXPERT</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="#">SPECIAL1</a>
+              <a class="dropdown-item" href="#">SPECIAL2</a>
+            </div>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              BOARD
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="#">NEWS</a>
+              <a class="dropdown-item" href="#">EMPLOYMENT NEWS</a>
+              <a class="dropdown-item" href="#">PHOTO</a>
+              <a class="dropdown-item" href="#">STUDENTS</a>
+              <a class="dropdown-item" href="#">DOCUMENT</a>
+              <a class="dropdown-item" href="#">VIDEO</a>
+            </div>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              OPERATION
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="#">FINANCE</a>
+            </div>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              MISSION
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="#">SUPPORT GUIDE</a>
+            </div>
+          </li>
 
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav mr-auto">
-        <li class="nav-item active">
-          <a class="nav-link" href="#">WELCOME <span class="sr-only">(current)</span></a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">ABOUT</a>
-        </li>
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-            COURSE
-          </a>
-          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-            <a class="dropdown-item" href="#">BEGINNER</a>
-            <a class="dropdown-item" href="#">ADVANCE</a>
-            <a class="dropdown-item" href="#">EXPERT</a>
-            <div class="dropdown-divider"></div>
-            <a class="dropdown-item" href="#">SPECIAL1</a>
-            <a class="dropdown-item" href="#">SPECIAL2</a>
-          </div>
-        </li>
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-            BOARD
-          </a>
-          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-            <a class="dropdown-item" href="#">NEWS</a>
-            <a class="dropdown-item" href="#">EMPLOYMENT NEWS</a>
-            <a class="dropdown-item" href="#">PHOTO</a>
-            <a class="dropdown-item" href="#">STUDENTS</a>
-            <a class="dropdown-item" href="#">DOCUMENT</a>
-            <a class="dropdown-item" href="#">VIDEO</a>
-        </li>
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-            OPERATION
-          </a>
-          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-            <a class="dropdown-item" href="#">FINANCE</a>
-        </li>
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-            MISSION
-          </a>
-          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-            <a class="dropdown-item" href="#">SUPPORT GUIDE</a>
-        </li>
-
-      </ul>
-      <form class="form-inline my-2 my-lg-0">
-        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-      </form>
+        </ul>
+        <form class="form-inline my-2 my-lg-0">
+          <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+        </form>
+      </div>
     </div>
   </nav>
 
-  <!-- jumbotron -->
-  <div class="jumbotron">
-    <h1 class="display-4 text-center">Hello, ITTC</h1>
-    <p class="lead text-center">IT TRAINING CENTER</p>
-    <hr class="my-4">
-    <p class="text-center">ITTC is based on a thorough Christian faith, The ITTC to train professional technical talents.</p>
-    <p class="text-center">
-      <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
-    </p>
+  <div class="container">
+    <!-- jumbotron -->
+    <div class="jumbotron">
+      <h1 class="display-4 text-center">Hello, ITTC</h1>
+      <p class="lead text-center">IT TRAINING CENTER</p>
+      <hr class="my-4">
+      <p class="text-center">ITTC is based on a thorough Christian faith, The ITTC to train professional technical talents.</p>
+      <p class="text-center">
+        <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
+      </p>
+    </div>
+    <!-- Main contents -->
+    <div class="row">
+      <div class="col-md-4">
+        <h4>About IT Training Center</h4>
+        <p>ITTC is based on a thorough Christian faith, The ITTC to train professional technical talents.</p>
+        <p><button type="button" class="btn btn-outline-secondary" data-toggle="modal" data-target="#exampleModalScrollable">View more</button></p>
+      </div>
+      <div class="col-md-4">
+        <h4>IT Training Center (purpose)</h4>
+        <p>produces a competent professional in a short period of time, Contribute to the improvement of the Christian life.</p>
+        <p><button type="button" class="btn btn-outline-secondary" data-toggle="modal" data-target="#exampleModalScrollable2">View more</button></p>
+      </div>
+      <div class="col-md-4">
+        <h4>IT Training Center Schedule</h4>
+        <p>Beginners: daily 5 hours, 5 times a week, 1 months 20 sessions Intermediate: daily 5 hours, 5 times a week, 1 months 20 sessions</p>
+        <p><button type="button" class="btn btn-outline-secondary" data-toggle="modal" data-target="#exampleModalScrollable3">View more</button></p>
+      </div>
+    </div>
+
+    <hr />
   </div>
 
-  <!-- Main contents -->
+    <!-- Modal 01-->
+    <div class="modal fade" id="exampleModalScrollable" tabindex="-1" role="dialog" aria-labelledby="exampleModalScrollableTitle" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-scrollable" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalScrollableTitle">Job training</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            ITTC is based on a thorough Christian faith, <br />
+            The ITTC to train professional technical talents.
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            <!-- <button type="button" class="btn btn-primary">Save changes</button> -->
+          </div>
+        </div>
+      </div>
+    </div>
 
+      <!-- Modal 01-->
+      <div class="modal fade" id="exampleModalScrollable2" tabindex="-1" role="dialog" aria-labelledby="exampleModalScrollableTitle" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-scrollable" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalScrollableTitle">Job training</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              22ITTC is based on a thorough Christian faith, <br />
+              22The ITTC to train professional technical talents.
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+              <!-- <button type="button" class="btn btn-primary">Save changes</button> -->
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Modal 02-->
+      <div class="modal fade" id="exampleModalScrollable3" tabindex="-1" role="dialog" aria-labelledby="exampleModalScrollableTitle" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-scrollable" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalScrollableTitle">Job training</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              33ITTC is based on a thorough Christian faith, <br />
+              33The ITTC to train professional technical talents.
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+              <!-- <button type="button" class="btn btn-primary">Save changes</button> -->
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Modal 03-->
+      <div class="modal fade" id="exampleModalScrollable" tabindex="-1" role="dialog" aria-labelledby="exampleModalScrollableTitle" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-scrollable" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalScrollableTitle">Job training</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              ITTC is based on a thorough Christian faith, <br />
+              The ITTC to train professional technical talents.
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+              <!-- <button type="button" class="btn btn-primary">Save changes</button> -->
+            </div>
+          </div>
+        </div>
+      </div>
 
   <!-- Footer -->
   <!-- <blockquote class="blockquote text-center">
     <p class="mb-0">#24 Volvo st, EXtension Tercel, Village East, ainta, Rizal</p>
     <footer class="blockquote-footer">IT TRAINING CENTER <cite title="Source Title">in ITTC</cite></footer>
   </blockquote> -->
-  
+  <footer class="footer">
+    <div class="container">
+      <br />
+      <div class="row">
+        <div class="col-sm-2">
+          <h5>Copyright&copy;2019</h5>
+          <h5>Jeremy Park</h5>
+        </div>
+        <div class="col-sm-4">
+          <h4>Introduce</h4>
+          <p>I am a student. Good morning everyone!!</p>
+        </div>
+        <div class="col-sm-2">
+          <h4>COURSE</h4>
+          <div class="list-group">
+            <a href="#" class="list-group-item">BEGINNER</a>
+            <a href="#" class="list-group-item">ADVANCE</a>
+            <a href="#" class="list-group-item">EXPERT</a>
+          </div>
+        </div>
+        <div class="col-sm-2">
+          <h4>SNS</h4>
+          <div class="list-group">
+            <a href="#" class="list-group-item">FACEBOOK</a>
+            <a href="#" class="list-group-item">YOUTUBE</a>
+            <a href="#" class="list-group-item">TWITTER</a>
+          </div>
+        </div>
+        <div class="col-sm-2">
+          <h4><span class="glyphicon glyphicon-ok"></span>&nbsp; by Jeremy</h4>
+        </div>
+      </div>
+    </div>
+  </footer>
+
   </body>
 </html>
