@@ -1,0 +1,15 @@
+.jumbotron{
+  text-align: center;
+  color:white;
+  text-shadow: black 0.2em 0.2em 0.2em;
+  background-image: url('../images/computer2.jpg');
+  background-size: cover;
+  margin-top: 10px;
+}
+
+.footer{
+  background-color: #343A40;
+  color: white;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
