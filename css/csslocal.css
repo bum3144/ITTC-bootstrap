@@ -13,3 +13,19 @@
   padding-top: 10px;
   padding-bottom: 10px;
 }
+
+.bookicon{
+  width: 16px;
+}
+.wpc{
+  font-size: 18px;
+  font-weight: bold;
+  padding-left: 10px;
+}
+.webicon{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  padding-top: 5px;
+}
